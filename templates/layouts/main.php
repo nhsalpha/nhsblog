@@ -27,11 +27,7 @@
     <div class="row">
       <div class="small-12 medium-3 columns">
         <a href="<?php echo home_url('/') ?>" title="<?php bloginfo('name') ?>" class="logo">
-          <?php if( $logo = get_option('logo-setting') ): ?>
-            <img src="<?php echo $logo ?>" alt="<?php bloginfo('name') ?> logo">
-          <?php else: ?>
-            <?php bloginfo('name') ?>
-          <?php endif; ?>
+NHS.UK Alpha
         </a>
         <div class="toggle-container hidden-for-medium-up">
           <a href="#top-bar" class="nav-toggle"><span class="visually-hidden"><?php _e('Menu', 'govsite') ?></span></a>
@@ -69,7 +65,7 @@
     <div class="credits">
       <div class="row">
         <div class="medium-6 columns">
-          <small>&copy; <?php echo date('Y') ?> <?php bloginfo('name') ?> copyright</small>
+          <small>NHS.UK Alpha is a project of Department of Health and NHS England. Github based on theme from DXW.</small>
         </div>
         <div class="medium-6 columns show-for-medium-up">
           <?php get_template_part('partials/social-media') ?>
