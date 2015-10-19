@@ -9,13 +9,6 @@
   display: inline-block;
   margin-top: $space-medium*2;
 
-  h1 {
-    @media #{$large-up} {
-      width: 80%;
-      float: left;
-    }
-  }
-
   .header-group {
     h1 {
       @media #{$large-up} {
