@@ -1,12 +1,6 @@
 <div class="row">
   <div class="large-12 columns">
 
-    <header class="page-header">
-        <div class="header-group">
-          <h1>NHS.UK Alpha</h1>
-
-                </div>
-      </header>
 
     <div class="row">
 

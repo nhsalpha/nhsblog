@@ -1,6 +1,6 @@
 .header-search {
   display: none;
-  background: $logo-color;
+  background: #CBE3F2;
   padding: $space-medium*2 0;
 
   @media #{$small-only} {
@@ -24,7 +24,7 @@
       &:before {
         position: absolute;
         font-size: 36px;
-        color: $lightest;
+        color: $primary-color;
       }
 
       &.focus {
@@ -44,9 +44,9 @@
       margin-left: 50px;
       background: transparent;
       border: none;
-      border-bottom: 1px solid $lightest;
+      border-bottom: 1px solid $primary-color;
       padding: 0 0 $space-small 0;
-      color: $lightest;
+      color: $primary-color;
       @include font-size(18);
 
       @media #{$small-only} {
@@ -57,22 +57,22 @@
     }
 
     *::-webkit-input-placeholder {
-      color: $lightest;
+      color: $primary-color;
       @include opacity(0.4);
     }
 
     *:-moz-placeholder {
-      color: $lightest;
+      color: $primary-color;
       @include opacity(0.4);
     }
 
     *::-moz-placeholder {
-      color: $lightest;
+      color: $primary-color;
       @include opacity(0.4);
     }
-    
+
     *:-ms-input-placeholder {
-      color: $lightest;
+      color: $primary-color;
       @include opacity(0.4);
     }
   }
@@ -80,6 +80,9 @@
   button {
     width: 100%;
     display: inline-block;
+    background-color: $primary-color;
+    color: #fff;
+    font-weight: bold;
   }
 }
 

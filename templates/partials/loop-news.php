@@ -4,10 +4,8 @@
   </header>
 
   <?php get_template_part('partials/entry-meta') ?>
+    <a href="<?php the_permalink() ?>"><?php the_post_thumbnail('large') ?></a>
 
-  <?php if (has_post_thumbnail()) : ?>
-    <a href="<?php the_permalink() ?>"><?php the_post_thumbnail('thumbnail') ?></a>
-  <?php endif ?>
 
   <?php the_excerpt() ?>
 </article>

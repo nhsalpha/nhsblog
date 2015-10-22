@@ -7,11 +7,23 @@
   <meta charset="utf-8">
   <link rel="dns-prefetch" href="//maps.gstatic.com">
   <link rel="dns-prefetch" href="//www.google-analytics.com">
-  <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <?php $favicon_url = get_attachment_url_by_slug('favicon') ?>
-  <link rel="icon" type="image/png" href="<?php echo $favicon_url ?>" />
+
+  <link rel="shortcut icon" href="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/favicon.ico?0.13.0" type="image/x-icon" />
+
+  <!-- Size for iPad and iPad mini (high resolution) -->
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/apple-touch-icon-152x152.png?0.13.0">
+  <!-- Size for iPhone and iPod touch (high resolution) -->
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/apple-touch-icon-120x120.png?0.13.0">
+  <!-- Size for iPad 2 and iPad mini (standard resolution) -->
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/apple-touch-icon-76x76.png?0.13.0">
+  <!-- Default non-defined size, also used for Android 2.1+ devices -->
+  <link rel="apple-touch-icon-precomposed" href="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/apple-touch-icon-60x60.png?0.13.0">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/opengraph-image.png?0.13.0">
+
   <?php wp_head() ?>
   <!--[if lt IE 9]>
     <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
@@ -22,54 +34,45 @@
   <!--[if lt IE 8]>
     <div class="alert-box alert">You are using an <strong>outdated</strong> browser. Please <a href="//browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
   <![endif]-->
+    <div class="header-wrapper">
+      <div class="row">
+        <div class="header-logo">
+          <a href="/" title="NHS.UK Alpha blog" id="logo">
+            <img src="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/nhslogo.png" height="31" alt="NHS logo"></a>
+        </div>
+      </div>
+    </div>
 
   <header class="site-header" role="banner">
     <div class="row">
-      <div class="small-12 medium-3 columns">
-        <a href="<?php echo home_url('/') ?>" title="<?php bloginfo('name') ?>" class="logo">
-NHS.UK Alpha
-        </a>
-        <div class="toggle-container hidden-for-medium-up">
-          <a href="#top-bar" class="nav-toggle"><span class="visually-hidden"><?php _e('Menu', 'govsite') ?></span></a>
-        </div>
+      <div class="medium-12 columns">
+        <a href="<?php echo home_url('/') ?>" title="<?php bloginfo('name') ?>" class="logo">NHS.UK Alpha</a>
+
       </div>
-      <div class="small-12 medium-9 columns">
-        <?php get_template_part('partials/nav') ?>
-      </div>
+
     </div>
   </header>
 
-  <div class="header-search">
-    <div class="row">
-      <?php get_template_part('partials/search-form'); ?>
-    </div>
-  </div>
+
 
   <?php w_requested_template() ?>
 
   <footer class="site-footer" role="contentinfo">
 
-    <div class="navigation">
-      <div class="row">
-        <div class="medium-6 columns">
-          <?php get_template_part('partials/nav-footer') ?>
-        </div>
-        <div class="medium-6 columns">
-          <?php if ( get_option('footer-link-text-setting') ) : ?>
-            <p><?php echo get_option('footer-link-text-setting') ?> <a href="<?php echo get_option('footer-link-url-setting') ?>"><?php echo get_option('footer-link-cta-setting') ?></a></p>
-          <?php endif ?>
-        </div>
-      </div>
-    </div>
 
     <div class="credits">
       <div class="row">
-        <div class="medium-6 columns">
-          <small>NHS.UK Alpha is a project of Department of Health and NHS England. Github based on theme from DXW.</small>
+        <div class="medium-12 columns">
+<p><a href="http://www.england.nhs.uk"><img src="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/nhsengland_mono_1000.png" height="50" class="brand" alt="NHS England logo"></a><a href="https://www.gov.uk/government/organisations/department-of-health"><img src="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/dh_mono_1000.png" height="50" class="brand" alt="Department of Health logo"></a>
+</p>
+<p><a href="http://digital.nhs.uk/comments-and-moderation-policy">Comments and moderation policy</a><br/>
+Based on the <a href="https://github.com/dxw/govsite">GovSite</a> Wordpress theme.</p>
+
+
+<p>All content is available under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">Open Government Licence v3.0</a>, except where otherwise stated.<br/>
+&copy; Crown copyright</p>
         </div>
-        <div class="medium-6 columns show-for-medium-up">
-          <?php get_template_part('partials/social-media') ?>
-        </div>
+
       </div>
     </div>
 

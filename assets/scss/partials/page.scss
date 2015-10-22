@@ -1,5 +1,7 @@
 // most of these elements are also used for pages and posts
-
+a:hover {
+  text-decoration: underline;
+}
 .post-summary {
   @include clearfix;
 }
@@ -10,6 +12,8 @@
   margin-top: $space-medium*2;
 
   h1 {
+    @include font-size(36);
+
     @media #{$large-up} {
       width: 80%;
       float: left;
@@ -18,6 +22,8 @@
 
   .header-group {
     h1 {
+      @include font-size(36);
+
       @media #{$large-up} {
         width: 100%;
         float: none;
@@ -72,8 +78,8 @@
 
   a img {
     float: left;
-    margin-top: 8px;
-    margin-right: 3%;
+    margin-bottom: 16px;
+  //  margin-right: 3%;
   }
 
   p {
@@ -89,23 +95,23 @@
     border-bottom: 3px solid darken($lightest, 13%);
     background: darken($lightest, 7%);
     padding: $space-small $space-small*2 $space-small*2 $space-small*2;
-    
+
     h4 {
       margin-top: 0;
       a {
         @include font-size(28);
       }
     }
-    
+
     img {
       max-width: 100%;
       float: none;
-      margin: $space-small 0;
+     margin: $space-small 0;
     }
-    
+
     a {
       img {
-        border: 5px solid $lightest;
+    //    border: 5px solid $lightest;
         @include single-transition();
         &:hover, &:focus {
           border-color: darken($lightest, 13%);
@@ -123,7 +129,7 @@
       margin-top: 0;
       padding-left: $space-small*4;
       @include icon(before, lock);
-      
+
       &:before {
         width: 30px;
         height: 30px;
