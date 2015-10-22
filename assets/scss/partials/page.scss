@@ -13,11 +13,6 @@ a:hover {
 
   h1 {
     @include font-size(36);
-
-    @media #{$large-up} {
-      width: 80%;
-      float: left;
-    }
   }
 
   .header-group {

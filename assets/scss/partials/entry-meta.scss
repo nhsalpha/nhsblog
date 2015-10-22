@@ -2,7 +2,6 @@
   width: 100%;
   display: inline-block;
   margin-bottom: $space-small;
-  color: darken($lightest, 32%);
   @include font-size(16);
 
   time {
@@ -18,12 +17,9 @@
   }
 
   &.date {
-    width: auto;
-    float: right;
 
     time {
       float: none;
-      display: block;
       margin-right: 0;
       padding-top: $space-small;
 
