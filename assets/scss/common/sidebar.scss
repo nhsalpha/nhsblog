@@ -29,11 +29,13 @@
   }
 
   .widget {
+    @include font-size(19);
+
     @include panel-styles($secondary-color);
 
     .post-date, .rss-date {
       display: block;
-      @include font-size(14);
+      @include font-size(19);
     }
 
     a.rsswidget img {

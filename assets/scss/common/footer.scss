@@ -1,7 +1,7 @@
 .site-footer {
   .navigation {
-    background: lighten($darkest, 14%);
-    padding: $space-small*2 0 $space-medium 0;
+    background-color: #DEE0E2;
+    padding: $space-small*6 0 $space-medium 0;
 
     a {
       color: $lightest;
@@ -26,11 +26,30 @@
   }
 
   .credits {
-    background: lighten($darkest, 8%);
+    background-color: #EDEDED;
+    padding-top: $space-small*6;
+    padding-bottom: $space-small*6;
+    color: #46494B;
+font-size: 16px;
+p {
+  font-size: 16px;
 
-    small {
-      padding: $space-small 0;
+}
+    a {
+      font-size: 16px;
+
+      color: #46494B;
+      text-decoration: underline;
     }
+    a:hover {
+      color: #46494B;
+      text-decoration: none;
+    }
+    img.brand {
+      height: 70px;
+      margin-right: 10px;
+    }
+
   }
 
   ul.menu {
@@ -38,9 +57,5 @@
     display: inline-block;
   }
 
-  small {
-    display: block;
-    color: $lightest;
-    @include font-size(12);
-  }
+
 }

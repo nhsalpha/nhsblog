@@ -3,16 +3,15 @@
   display: inline-block;
   margin-bottom: $space-small;
   color: darken($lightest, 32%);
-  @include font-size(14);
+  @include font-size(16);
 
   time {
     float: left;
     display: inline-block;
     margin-right: $space-small/2;
     color: darken($lightest, 47%);
-    
+
     &:after {
-      content: "|";
       padding-left: $space-small/2;
       color: darken($lightest, 32%);
     }

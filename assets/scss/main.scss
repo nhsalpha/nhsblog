@@ -28,6 +28,19 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'frutiger';
+  src: url('#{$fontPath}//frutiger-light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'frutiger';
+  src: url('#{$fontPath}//frutiger-bold.woff') format('woff');
+  font-weight: bold;
+}
+
 
 // Common
 @import "common/alert-boxes";
