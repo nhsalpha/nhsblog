@@ -4,7 +4,13 @@
     <header class="page-header">
       <h1><?php the_title() ?></h1>
       <div class="entry-meta date">
-        <?php the_author() ?>,
+        <?php
+          if(function_exists('coauthors')) {
+            coauthors();
+          } else {
+            the_author();
+          }
+        ?>,
         <time class="published" datetime="<?php echo get_the_time('c') ?>"><?php echo the_time('F jS Y') ?></time>
       </div>
     </header>
