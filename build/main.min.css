@@ -6797,22 +6797,21 @@ meta.foundation-mq-topbar {
 .entry-meta.date time {
   float: none;
   margin-right: 0;
-  padding-top: 10px;
 }
-/* line 26, ../assets/scss/partials/entry-meta.scss */
+/* line 25, ../assets/scss/partials/entry-meta.scss */
 .entry-meta.date time:after {
   display: none;
 }
-/* line 32, ../assets/scss/partials/entry-meta.scss */
+/* line 31, ../assets/scss/partials/entry-meta.scss */
 .entry-meta .post-categories {
   float: left;
   display: inline-block;
 }
-/* line 36, ../assets/scss/partials/entry-meta.scss */
+/* line 35, ../assets/scss/partials/entry-meta.scss */
 .entry-meta .post-categories > li {
   margin-left: 0;
 }
-/* line 40, ../assets/scss/partials/entry-meta.scss */
+/* line 39, ../assets/scss/partials/entry-meta.scss */
 .entry-meta .post-categories a {
   font-size: 14px;
   font-size: 0.868rem;
