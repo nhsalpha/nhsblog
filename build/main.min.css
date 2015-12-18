@@ -5648,11 +5648,10 @@ textarea:focus {
   font-size: 2.976rem;
   line-height: 1.5;
   line-height: 1;
-  letter-spacing: -3px;
   color: #000;
   display: block;
 }
-/* line 35, ../assets/scss/common/header.scss */
+/* line 34, ../assets/scss/common/header.scss */
 .site-header .logo:hover, .site-header .logo:focus {
   color: black;
   text-decoration: underline;
@@ -5663,12 +5662,12 @@ textarea:focus {
     float: none;
   }
 }
-/* line 44, ../assets/scss/common/header.scss */
+/* line 43, ../assets/scss/common/header.scss */
 .site-header .logo img {
   max-width: 200px;
 }
 @media only screen and (max-width: 48.6875em) {
-  /* line 44, ../assets/scss/common/header.scss */
+  /* line 43, ../assets/scss/common/header.scss */
   .site-header .logo img {
     max-width: 180px;
   }
