@@ -24,6 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:image" content="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/opengraph-image.png?0.13.0">
 
+  <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/e3854e97-b35c-4f31-bf5d-f804408f2ef8.css"/>
   <?php wp_head() ?>
   <!--[if lt IE 9]>
     <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>

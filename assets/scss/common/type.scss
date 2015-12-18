@@ -7,6 +7,10 @@ html {
   outline: 0;
 }
 
+body {
+  font-family:'Neue Frutiger W04';
+}
+
 p, button, .button, ul, ol, dl {
   @include font-size(19);
   line-height: 1.5;
@@ -29,7 +33,7 @@ h1 {
   }
 
 }
- 
+
 
 h2 {
   @include font-size(36);
