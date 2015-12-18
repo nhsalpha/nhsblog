@@ -3,16 +3,7 @@
 
     <header class="page-header">
       <h1><?php the_title() ?></h1>
-      <div class="entry-meta date">
-        <?php
-          if(function_exists('coauthors')) {
-            coauthors_posts_links();
-          } else {
-            the_author_posts_link();
-          }
-        ?>,
-        <time class="published" datetime="<?php echo get_the_time('c') ?>"><?php echo the_time('F jS Y') ?></time>
-      </div>
+      <?php get_template_part('partials/entry-meta'); ?>
     </header>
 
     <?php if (get_field('show_featured_image') == true ) : ?>
