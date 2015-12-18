@@ -435,10 +435,10 @@ $icons: (
 }
 
 // We use these to define default font stacks
-$font-family-sans-serif: "frutiger", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif: 'Neue Frutiger W04', Helvetica, Arial, sans-serif !default;
 $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace !default;
-$header-font-family: "frutiger", $font-family-sans-serif;
+$header-font-family: $font-family-sans-serif;
 
 // We use these to define default font weights
 $font-weight-normal: normal !default;
