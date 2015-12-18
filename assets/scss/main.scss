@@ -6,11 +6,6 @@
 @import "colours"; // colour variabes
 @import "foundation";
 
-// Custom fonts
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-@import url(http://fonts.googleapis.com/css?family=Asap:400,700);
-@import url(http://fonts.googleapis.com/css?family=Contrail+One);
-
 @font-face {
   font-family: 'icomoon';
   src: url('#{$fontPath}/icomoon.eot');
