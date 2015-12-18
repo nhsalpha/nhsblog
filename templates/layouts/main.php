@@ -46,7 +46,7 @@
   <header class="site-header" role="banner">
     <div class="row">
       <div class="medium-12 columns">
-        <a href="<?php echo home_url('/') ?>" title="<?php bloginfo('name') ?>" class="logo">NHS.UK Alpha</a>
+        <a href="<?php echo home_url('/') ?>" title="<?php bloginfo('name') ?>" class="logo">NHS.UK Alpha blog</a>
 
       </div>
 
