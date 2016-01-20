@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:image" content="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/opengraph-image.png?0.13.0">
 
-  <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/e3854e97-b35c-4f31-bf5d-f804408f2ef8.css"/>
+  <link type="text/css" rel="stylesheet" href="https://fast.fonts.net/cssapi/e3854e97-b35c-4f31-bf5d-f804408f2ef8.css"/>
   <?php wp_head() ?>
   <!--[if lt IE 9]>
     <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
@@ -66,7 +66,7 @@
         <div class="medium-12 columns">
 <p><a href="http://www.england.nhs.uk"><img src="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/nhsengland_mono_1000.png" height="50" class="brand" alt="NHS England logo"></a><a href="https://www.gov.uk/government/organisations/department-of-health"><img src="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/dh_mono_1000.png" height="50" class="brand" alt="Department of Health logo"></a>
 </p>
-<p><a href="http://digital.nhs.uk/comments-and-moderation-policy">Comments and moderation policy</a><br/>
+<p><a href="/comments-and-moderation-policy">Comments and moderation policy</a><br/>
 Based on the <a href="https://github.com/dxw/govsite">GovSite</a> Wordpress theme.</p>
 
 
