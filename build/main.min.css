@@ -5372,34 +5372,15 @@ blockquote:before {
   font-size: 3.1rem;
   line-height: 1.5;
 }
-@media only screen and (min-width: 64.063em) {
-  /* line 103, ../assets/scss/common/type.scss */
-  blockquote {
-    width: 48%;
-    min-height: 0;
-    float: left;
-    margin-top: 0;
-    margin-right: 4%;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-}
-@media only screen and (min-width: 90.063em) {
-  /* line 103, ../assets/scss/common/type.scss */
-  blockquote {
-    width: 65%;
-    margin-left: -130px;
-  }
-}
-/* line 134, ../assets/scss/common/type.scss */
+/* line 119, ../assets/scss/common/type.scss */
 blockquote p, blockquote ul, blockquote ol {
   color: #000;
 }
-/* line 137, ../assets/scss/common/type.scss */
+/* line 122, ../assets/scss/common/type.scss */
 blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
   margin-bottom: 0;
 }
-/* line 142, ../assets/scss/common/type.scss */
+/* line 127, ../assets/scss/common/type.scss */
 blockquote cite {
   margin-top: 5px;
   color: #000;
@@ -5407,12 +5388,12 @@ blockquote cite {
   font-size: 1.116rem;
   line-height: 1.5;
 }
-/* line 147, ../assets/scss/common/type.scss */
+/* line 132, ../assets/scss/common/type.scss */
 blockquote cite a {
   color: #0071BB;
 }
 
-/* line 153, ../assets/scss/common/type.scss */
+/* line 138, ../assets/scss/common/type.scss */
 code {
   border: none;
   background-color: #dedede;
@@ -5420,17 +5401,17 @@ code {
   margin: 0 5px;
 }
 
-/* line 160, ../assets/scss/common/type.scss */
+/* line 145, ../assets/scss/common/type.scss */
 pre {
   margin-bottom: 1.25rem;
 }
 
-/* line 165, ../assets/scss/common/type.scss */
+/* line 150, ../assets/scss/common/type.scss */
 ul li, ol li {
   margin-bottom: 2px;
 }
 
-/* line 171, ../assets/scss/common/type.scss */
+/* line 156, ../assets/scss/common/type.scss */
 dl dd {
   margin-left: 25px;
 }
