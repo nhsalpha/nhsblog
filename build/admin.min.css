@@ -4899,28 +4899,33 @@ a:visited:hover, a:visited:focus {
 }
 
 /* line 84, ../assets/scss/common/type.scss */
+body.single article a {
+  text-decoration: underline;
+}
+
+/* line 88, ../assets/scss/common/type.scss */
 strong, b {
   font-weight: 700;
 }
 
-/* line 88, ../assets/scss/common/type.scss */
+/* line 92, ../assets/scss/common/type.scss */
 hr.footer {
   border-color: #333333;
 }
 
-/* line 92, ../assets/scss/common/type.scss */
+/* line 96, ../assets/scss/common/type.scss */
 .vcard {
   margin-bottom: 10px;
   border: none;
   padding: 0;
 }
-/* line 97, ../assets/scss/common/type.scss */
+/* line 101, ../assets/scss/common/type.scss */
 .vcard .fn {
   font-weight: 700;
   font-style: normal;
 }
 
-/* line 103, ../assets/scss/common/type.scss */
+/* line 107, ../assets/scss/common/type.scss */
 blockquote {
   min-height: 182px;
   position: relative;
@@ -4939,7 +4944,7 @@ blockquote:before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 111, ../assets/scss/common/type.scss */
+/* line 115, ../assets/scss/common/type.scss */
 blockquote:before {
   position: absolute;
   left: 0;
@@ -4949,15 +4954,15 @@ blockquote:before {
   font-size: 3.1rem;
   line-height: 1.5;
 }
-/* line 119, ../assets/scss/common/type.scss */
+/* line 123, ../assets/scss/common/type.scss */
 blockquote p, blockquote ul, blockquote ol {
   color: #000;
 }
-/* line 122, ../assets/scss/common/type.scss */
+/* line 126, ../assets/scss/common/type.scss */
 blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
   margin-bottom: 0;
 }
-/* line 127, ../assets/scss/common/type.scss */
+/* line 131, ../assets/scss/common/type.scss */
 blockquote cite {
   margin-top: 5px;
   color: #000;
@@ -4965,12 +4970,12 @@ blockquote cite {
   font-size: 1.116rem;
   line-height: 1.5;
 }
-/* line 132, ../assets/scss/common/type.scss */
+/* line 136, ../assets/scss/common/type.scss */
 blockquote cite a {
   color: #0071BB;
 }
 
-/* line 138, ../assets/scss/common/type.scss */
+/* line 142, ../assets/scss/common/type.scss */
 code {
   border: none;
   background-color: #dedede;
@@ -4978,17 +4983,17 @@ code {
   margin: 0 5px;
 }
 
-/* line 145, ../assets/scss/common/type.scss */
+/* line 149, ../assets/scss/common/type.scss */
 pre {
   margin-bottom: 1.25rem;
 }
 
-/* line 150, ../assets/scss/common/type.scss */
+/* line 154, ../assets/scss/common/type.scss */
 ul li, ol li {
   margin-bottom: 2px;
 }
 
-/* line 156, ../assets/scss/common/type.scss */
+/* line 160, ../assets/scss/common/type.scss */
 dl dd {
   margin-left: 25px;
 }
