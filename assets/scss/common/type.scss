@@ -81,6 +81,10 @@ a {
   }
 }
 
+body.single article a {
+  text-decoration: underline;
+}
+
 strong, b {
   font-weight: 700;
 }
@@ -114,21 +118,6 @@ blockquote {
     top: -10px;
     color: $logo-color;
     @include font-size(50);
-  }
-
-  @media #{$large-up} {
-    width: 48%;
-    min-height: 0;
-    float: left;
-    margin-top: 0;
-    margin-right: 4%;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  @media #{$xlarge-up} {
-    width: 65%;
-    margin-left: -130px;
   }
 
   p, ul, ol {
