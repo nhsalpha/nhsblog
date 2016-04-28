@@ -38,7 +38,7 @@
     <div class="header-wrapper">
       <div class="row">
         <div class="header-logo">
-          <a href="/" title="NHS.UK Alpha blog" id="logo">
+          <a href="/" id="logo">
             <img src="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/nhslogo.png" height="31" alt="NHS logo"></a>
         </div>
       </div>
@@ -47,7 +47,7 @@
   <header class="site-header" role="banner">
     <div class="row">
       <div class="medium-12 columns">
-        <a href="<?php echo home_url('/') ?>" title="<?php bloginfo('name') ?>" class="logo">NHS.UK Alpha blog</a>
+        <a href="<?php echo home_url('/') ?>" class="logo"><?php bloginfo('name') ?></a>
 
       </div>
 
