@@ -64,8 +64,6 @@
     <div class="credits">
       <div class="row">
         <div class="medium-12 columns">
-<p><a href="http://www.england.nhs.uk"><img src="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/nhsengland_mono_1000.png" height="50" class="brand" alt="NHS England logo"></a><a href="https://www.gov.uk/government/organisations/department-of-health"><img src="<?php get_site_url(); ?>/wp-content/themes/govsite/assets/img/dh_mono_1000.png" height="50" class="brand" alt="Department of Health logo"></a>
-</p>
 <p><a href="/comments-and-moderation-policy">Comments and moderation policy</a><br/>
 Based on the <a href="https://github.com/dxw/govsite">GovSite</a> Wordpress theme.</p>
 
